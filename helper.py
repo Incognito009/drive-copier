@@ -29,8 +29,8 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger(__name__)
 
-parent_id = "" #folder id of the destination , where the file is to be copied
-IS_TEAM_DRIVE =    #True or False
+parent_id = "0ACBpH0pqEs51Uk9PVA" #folder id of the destination , where the file is to be copied
+IS_TEAM_DRIVE =True    #True or False
 SIZE_UNITS = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
 def get_readable_file_size(size_in_bytes) -> str:
     if size_in_bytes is None:
